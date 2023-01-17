@@ -53,7 +53,7 @@ function generatePassword() {
 
           const endPassword = "";
         // If criteria is true, then would return the values specified???
-       for (i = 0, i < parseInt(passLength), i++) {
+       for(i = 0; i < parseInt(passLength); i++) {
        
         if (passNumber) {
           randomNumber();
@@ -71,9 +71,9 @@ function generatePassword() {
           randomLowerCase();
         }
           return endPassword;
-      };
+      }
 
-          };
-    };
+          }
+    }
   
-  };
+  }
